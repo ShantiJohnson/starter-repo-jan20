@@ -1,14 +1,29 @@
-const name = "Shanti";
-let favoriteSong = "The Box by Roddi Rich";
-let wage = 60000;
-let age = 27;
-const onlyChild = false;
-let satisfied = false;
-let favoriteThing = "Cellphone";
-favoriteSong = "Set The Atmosphere y Kirk Carr";
-favoriteThing = 4;
-// console.log(typeof favoriteThing)
-age = 28;
-wage = 100000;
-satisfied = true;
-console.log(`My name is ${name} and I am not ${age}`);
+const contact = {
+  name: "Ardella",
+  age: 85,
+  number: {
+    cell: 3146242626,
+    home: 3148387244
+  }
+};
+
+console.log(contact.number.cell);
+
+//const is bout IMMUTABILITY (ability to change) - its about NON REASSIGNMENT
+
+// const me ={
+//   name: 'Shanti'
+//   age: 27
+//   living: true
+//}
+
+// const me = {};
+// I cannot reassign me but I can reassign key values of me!!!
+// me = 'Shanti'
+// me.name = "Shanti";
+// me.age = 28;
+// me.midName = "Irie";
+
+// me.age = 30;
+
+// console.log(me.age);
