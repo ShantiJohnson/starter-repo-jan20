@@ -23,4 +23,21 @@ favoriteThing = 2020;
 age = 28;
 wage = 100000;
 satisfied = true;
-console.log("My name is " + name + " and I am not " + age + " years old!");
+// console.log("My name is " + name + " and I am not " + age + " years old!");
+
+// console.log("2" + 2);
+// console.log(2 + "2");
+// console.log(2 + 2);
+// console.log(true + true);
+// console.log(true + true + true);
+// console.log(true + true + true + false);
+// console.log(false + true + true + true);
+// console.log(false + false + false);
+// console.log(2 + true);
+// console.log(2 + false);
+// console.log(true + true + " true" + "false");
+// console.log(1 + 1 + "2" + "3");
+// console.log(Number("2") + 2);
+
+// //let num = "11";
+// //console.log(Number(`${num}`) + 2);
